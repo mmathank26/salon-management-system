@@ -22,7 +22,7 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: /salon_database
+      device: /salon_database #Folder that need to be created on host
 
 networks:
   salon_net:
